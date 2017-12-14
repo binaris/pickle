@@ -1,0 +1,29 @@
+{
+  "name": "pickle",
+  "version": "1.0.0",
+  "description": "Binaris utility and glue code",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint -c .eslintrc.js .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gobinaris/pickle.git"
+  },
+  "keywords": [
+    "binaris",
+    "util"
+  ],
+  "author": "Binaris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gobinaris/pickle/issues"
+  },
+  "homepage": "https://github.com/gobinaris/pickle#readme",
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "eslint-config-airbnb-base": "^11.0.1",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
