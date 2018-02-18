@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gobinaris/pickle.git"
+    "url": "git+https://github.com/binaris/pickle.git"
   },
   "keywords": [
     "binaris",
@@ -18,9 +18,9 @@
   "author": "Binaris",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gobinaris/pickle/issues"
+    "url": "https://github.com/binaris/pickle/issues"
   },
-  "homepage": "https://github.com/gobinaris/pickle#readme",
+  "homepage": "https://github.com/binaris/pickle#readme",
   "devDependencies": {
     "eslint": "^4.13.1",
     "eslint-config-airbnb-base": "^11.0.1",
