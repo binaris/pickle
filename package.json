@@ -1,5 +1,5 @@
 {
-  "name": "pickle",
+  "name": "@binaris/pickle",
   "version": "1.0.0",
   "description": "Binaris utility and glue code",
   "main": "index.js",
