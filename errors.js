@@ -24,6 +24,8 @@ const errStringMap = {
   ERR_INTERNAL: 'Internal Binaris server error',
   ERR_NO_REQ_ID: 'Missing request ID header',
   ERR_NO_SUCH_FUNCTION: 'No such function',
+  ERR_OUTDATED_CLIENT:
+    'Client version is out of date, please update using "npm install -g binaris"',
   ERR_PAYLOAD_TOO_LARGE: 'Payload too large',
   /** Here we define error codes which are local to the CLI. */
   ERR_NO_BACKEND: 'Could not connect to Binaris backend',
