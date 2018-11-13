@@ -27,6 +27,7 @@ const errStringMap = {
   ERR_OUTDATED_CLIENT:
     'Client version is out of date, please update using "npm install -g binaris"',
   ERR_PAYLOAD_TOO_LARGE: 'Payload too large',
+  ERR_FUNCTION_NAME_TOO_LONG: 'Function name too long',
   /** Here we define error codes which are local to the CLI. */
   ERR_NO_BACKEND: 'Could not connect to Binaris backend',
 };
