@@ -42,6 +42,15 @@ const translateErrorCode = function translateErrorCode(errCode) {
   return errStringMap[errCode] || errCode;
 };
 
+/**
+ * Translates a provided Binaris error code into a more explicit and
+ * descriptive string representation, or returns null if no better
+ * representation exists.
+ */
+const maybeTranslateErrorCode = function maybeTranslateErrorCode(errCode) {
+  return errStringMap[errCode] || null;
+};
+
 module.exports = {
-  translateErrorCode,
+  translateErrorCode, maybeTranslateErrorCode,
 };
